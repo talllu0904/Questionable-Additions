@@ -19,7 +19,7 @@ import org.slf4j.Logger;
 @Mod(QuestionableAdditions.MOD_ID)
 public class QuestionableAdditions {
     public static final String MOD_ID = "questionableadditions";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     public QuestionableAdditions() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
