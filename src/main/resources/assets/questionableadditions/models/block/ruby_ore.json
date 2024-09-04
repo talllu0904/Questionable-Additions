@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "questionableadditions:block/ruby_ore"
+  }
+}

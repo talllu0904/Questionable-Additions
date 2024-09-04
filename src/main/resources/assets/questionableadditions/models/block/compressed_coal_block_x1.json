@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "questionableadditions:block/compressed_coal_block_x1"
+  }
+}
