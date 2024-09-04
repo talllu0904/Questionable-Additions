@@ -17,9 +17,13 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
                     .title(Component.translatable("creativetab.questionable_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.RUBY.get());
+                        //Items
                         output.accept(ModItems.RAW_RUBY.get());
-                        output.accept((ModBlocks.RUBY_BLOCK.get()));
+                        output.accept(ModItems.RUBY.get());
+                        //BLocks
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RUBY_ORE.get());
+                        output.accept(ModBlocks.COMPRESSED_COAL_BLOCK_X1.get());
                     })
                     .build());
     public  static void register(IEventBus eventBus) {
