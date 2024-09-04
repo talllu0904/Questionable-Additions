@@ -2,5 +2,7 @@
   "item.questionableadditions.ruby": "Ruby",
   "item.questionableadditions.raw_ruby": "Raw Ruby",
   "block.questionableadditions.ruby_block": "Block of Ruby",
-  "creativetab.questionable_tab": "Questionable Additions Tab"
+  "block.questionableadditions.ruby_ore": "Ruby Ore",
+  "block.questionableadditions.compressed_coal_block_x1": "Compressed Coal Block x1",
+  "creativetab.questionable_tab": "Questionable Additions"
 }
